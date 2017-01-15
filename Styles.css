@@ -1,0 +1,112 @@
+.body{
+    background-image:url('img/bg.png');
+    color:#000385;
+    
+	
+}
+
+h1{
+  text-align:left;
+  font-size:46px;
+  font-family:Arial, 'Lucida Sans Unicade';
+  color:#09f;
+  letter-spacing: 0px;
+  font-weight:70px;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #000;
+}
+
+
+a{
+   text-decoration: none; 
+    
+}
+a:link,a:visited{
+    color: #CF5C3F;
+     
+}
+a:hover, a:active {
+    background-color: #CF5C3F;
+    color:#
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    
+}
+
+.mainheader img{
+    width: 30%;
+    height:auto:
+    margin:2% 0;  
+}
+.mainheader nav{
+    background-color:#666;
+    height:40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+   -moz- border-radius: 50px;
+   -webkit- border-radius: 5px;  
+}
+.mainheader nav ul{
+    list-style: none;
+    padding: 0%
+    margin: 0%;
+}
+.mainheader nav ul li{
+    float:left;
+    display:inline;
+    margin:10px;
+    font-size: 20px;
+}
+
+.mainhearder nav a:link, .mainheader nav a{
+    color: #FFF;
+    display: inline
+        ;
+    padding:10px 25px; 
+    height: 20px;
+}
+
+.main{
+    width: 60%;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    float: left;
+    
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+    background: #CF5C3F;
+    text-shadow: none
+}
+
+.mainheader nav ul li a {
+   border-radius: 5px;
+   -moz- border-radius: 50px;
+   -webkit- border-radius: 5px;
+}
+
+.sidebar {
+    padding: 10px;
+    border-left-style: solid;
+    float: left;
+    background-color: #FFF
+    margin-right: 3%;
+    margin-top: 5px;
+    margin-left: 70%;
+    position: fixed;
+}
+
+.footer{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
